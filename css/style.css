@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: 'Changa';
+    src: local("fonts/Changa-SemiBold.ttf");
+}
+
+@font-face{
+    font-family: 'Cairo';
+    src: local("fonts/Cairo-SemiBold.ttf");
+}
+
+h2{
+    font-family: Cairo; font-size: 48px;
+}
+
+h3{
+    font-family: Cairo; font-size: 30px;
+}
+
+#navBar h1{
+    float: left;
+    font-family: Cairo;
+    font-size: 25px;
+    padding: 6px;
+}
+
+#navBar {
+    background-color: #bd4b02;
+    height: 60px; width: 100%;
+}
+
+#navBar ul{
+    padding-right: 10%;
+}
+
+#navBar ul li:hover{
+    background-color: #6c2b03;
+}
+
+.nav_btn{
+    float: left;
+    display: block;
+    float: right;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 17px;   
+}
+
+.nav_btn a{
+    color: white;
+    text-decoration: none;
+}
+
+#siteTop {
+    background-image: url(/imgs/Library%20Image.png); height: 572px; width: 100%;
+}
+
+#siteTop img{
+    width: 25.7%; 
+    margin: 21px 37.1%;
+}
+
+#siteTop h1{
+    text-align: center;
+    font-family: Changa ;
+    font-size: 48px;
+    color: white;
+    padding: 21px;
+    text-shadow: -2px 3px 3px #00000052;
+    -webkit-text-stroke: 1px #6c2b03;
+    }
+
+.btnTop {
+    background-color: #6c2b03; border: solid 1px white; border-radius: 22px;
+    height: 50px; width: 190px;
+    font-family: Cairo; font-size: 20px; color: white;
+    margin: 21px 44px 0px;
+    box-shadow: 0px 6px #0000004a;
+    cursor: pointer;
+}
+#btnTopGroup{
+    width: 842px; margin: 0px 15.8%;
+}
+
+#mainMenu {
+    background-color: #bd4b02;
+    height: 60px;
+}
+
+#mainMenu ul{
+    float: left;
+    margin-left: 10%;
+}
+
+#mainMenu ul li:hover{
+    background-color: #6c2b03;
+}
+
+#homeHover{
+    background-color: #6c2b03;
+}
+
+.sectionColor{
+    height: 500px;
+    background-color: #d2aa5a;
+}
+
+.sectionColor h2{
+    color: white;
+    text-align: center;
+}
+
+.sectionWhite{
+    height: 500px;
+    background-color: white;
+}
+
+.sectionWhite h2{
+    color: black;
+    text-align: center;
+}
+
+.imgsGroup{
+    margin: 30px 10%;
+}
+
+.slideImg{
+    height: 300px; width: 250px;
+    margin: 10px;
+    border: solid 1px #bd4b02;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.slideLeft{
+    border: solid 1px #bd4b02;
+    border-radius: 30px 1px 1px 30px;
+    margin: 0px 15px 104px 1px;
+    cursor: pointer;
+}
+
+.slideRight{
+    border: solid 1px #bd4b02;
+    border-radius: 1px 30px 30px 1px;
+    margin: 0px 1px 104px 15px;
+    cursor: pointer;
+}
+
+#slideCircles{
+    margin: 0px 38%;
+    cursor: pointer;
+}
+
+.slideCircle{
+    width: 18px;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+#contactUs{
+    height: 640px;
+    background-color: #524323;
+}
+
+#contactDetails{
+    margin-left: 10%;
+    width: 480px;
+    float: left;
+}
+
+#contactUs h2{
+    color: white;
+    text-align: center;
+}
+
+#contactDetails h3{
+    color: white;
+    text-align: center;
+}
+
+.contactImg{
+    height: 75px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 202.5px;
+}
+
+#contactLocation{
+    width: 480px;
+    float: left;
+}
+
+#siteFooter{
+    height: 60px;
+    background-color: #ba4a04;
+    color: white;
+    text-align: center;
+}
